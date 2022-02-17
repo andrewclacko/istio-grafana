@@ -20,5 +20,5 @@ spec:
               number: 3000
   tls:
   - hosts:
-    - grafana.gdixon.io
+    - kubernetes.docker.internal
     secretName: your-certificate-name
