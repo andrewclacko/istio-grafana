@@ -8,10 +8,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: grafana.gdixon.io
+  - host: kubernetes.docker.internal
     http:
       paths:
-      - path: /
+      - path: /grafana
         pathType: Prefix
         backend:
           service:
