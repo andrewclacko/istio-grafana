@@ -21,4 +21,4 @@ spec:
   tls:
   - hosts:
     - grafana.kubernetes.docker.internal
-    secretName: your-certificate-name
+    secretName: wildcard-tls
